@@ -65,7 +65,7 @@ const App = () => {
     );
   };
   return (
-    <ScrollView>
+    <>
       <View
         style={{
           flexDirection: 'row',
@@ -98,120 +98,8 @@ const App = () => {
         </Text>
       </TouchableOpacity>
 
-      <View
-        style={{
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          marginBottom: 50,
-        }}>
-        <View
-          style={{
-            flexDirection: 'column',
-            width: Dimensions.get('window').width / 2 - 40,
-            marginLeft: 20,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Image
-            source={require('./image/recycle.png')}
-            style={{
-              width: '100%',
-              height: 91,
-              resizeMode: 'contain',
-              marginBottom: 10,
-            }}
-          />
-          <Text style={{fontSize: 16, fontWeight: 'bold'}}>분리수거(월)</Text>
-        </View>
-
-        <View
-          style={{
-            width: Dimensions.get('window').width / 2 - 40,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Text>이창욱</Text>
-          <Text>허지행</Text>
-        </View>
-      </View>
-
-      <View
-        style={{
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          marginBottom: 50,
-        }}>
-        <View
-          style={{
-            flexDirection: 'column',
-            width: Dimensions.get('window').width / 2 - 40,
-            marginLeft: 20,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Image
-            source={require('./image/recycle.png')}
-            style={{
-              width: '100%',
-              height: 91,
-              resizeMode: 'contain',
-              marginBottom: 10,
-            }}
-          />
-          <Text style={{fontSize: 16, fontWeight: 'bold'}}>분리수거(수)</Text>
-        </View>
-
-        <View
-          style={{
-            width: Dimensions.get('window').width / 2 - 40,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Text>이창욱</Text>
-          <Text>허지행</Text>
-        </View>
-      </View>
-
-      <View
-        style={{
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          marginBottom: 50,
-        }}>
-        <View
-          style={{
-            flexDirection: 'column',
-            width: Dimensions.get('window').width / 2 - 40,
-            marginLeft: 20,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Image
-            source={require('./image/recycle.png')}
-            style={{
-              width: '100%',
-              height: 91,
-              resizeMode: 'contain',
-              marginBottom: 10,
-            }}
-          />
-          <Text style={{fontSize: 16, fontWeight: 'bold'}}>분리수거(금)</Text>
-        </View>
-
-        <View
-          style={{
-            width: Dimensions.get('window').width / 2 - 40,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Text>이창욱</Text>
-          <Text>허지행</Text>
-        </View>
-      </View>
-    </ScrollView>
+      <FlatList data={data.type} renderItem={renderRow} numColumns={2} />
+    </>
   );
 };
 
