@@ -1,29 +1,13 @@
 {
   "person": [
-    {
-      "name": "김유태"
-    },
-    {
-      "name": "이창욱"
-    },
-    {
-      "name": "심평섭"
-    },
-    {
-      "name": "박주안"
-    },
-    {
-      "name": "허지행"
-    },
-    {
-      "name": "박진"
-    },
-    {
-      "name": "김인철"
-    },
-    {
-      "name": "황아영"
-    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
     {
       "name": "이정윤"
     },
@@ -33,27 +17,43 @@
   ],
   "type": [
     {
+      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "name": "",
       "clean_name": "분리수거(월)"
     },
     {
-      "clean_name": "분리수거(수)"
-    },
-    {
-      "clean_name": "분리수거(금)"
-    },
-    {
+      "img": "https://user-images.githubusercontent.com/66461799/129843018-1b1dd195-5891-40c8-ade5-325ece9a4de4.png",
+      "name": "",
       "clean_name": "바닥 쓸기"
     },
     {
+      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "name": "",
+      "clean_name": "분리수거(수)"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/129843021-6172421e-9bcb-4035-9499-4534d3384c51.png",
+      "name": "",
       "clean_name": "바닥 닦기"
     },
     {
+      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "name": "",
+      "clean_name": "분리수거(금)"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/129844584-09caee24-ce44-46aa-83d6-8e12aa7f2883.png",
+      "name": "",
       "clean_name": "탕비실 청소"
     },
     {
+      "img": "https://user-images.githubusercontent.com/66461799/129844579-24de5650-0a7c-41b2-8974-c9e890abdd83.png",
+      "name": "",
       "clean_name": "회의실 청소"
     },
     {
+      "img": "https://user-images.githubusercontent.com/66461799/129844581-5eb15601-e59f-406e-842c-f8508e444a14.png",
+      "name": "",
       "clean_name": "화분 물 주기"
     }
   ]
