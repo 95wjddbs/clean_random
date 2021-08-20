@@ -12,6 +12,10 @@ import {
 
 import data from './dummydata.json';
 
+function happy() {
+  console.log('h');
+}
+
 function shuffle(array) {
   array?.sort(() => Math.random() - 0.5);
 }
