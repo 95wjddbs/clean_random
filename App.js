@@ -16,26 +16,26 @@ function happy() {
   console.log('h');
 }
 
-function shuffle(array) {
-  array?.sort(() => Math.random() - 0.5);
-}
-const numbers = [
-  '김유태',
-  '박주안',
-  '이창욱',
-  '허지행',
-  '심평섭',
-  '박진',
-  '김인철',
-  '황아영',
-  '이정윤',
-  '마이크',
-];
-shuffle(numbers);
-console.log(numbers);
-
 const App = () => {
   const [status, setStatus] = useState(false);
+
+  function shuffle(array) {
+    array?.sort(() => Math.random() - 0.5);
+  }
+  const numbers = [
+    '김유태',
+    '박주안',
+    '이창욱',
+    '허지행',
+    '심평섭',
+    '박진',
+    '김인철',
+    '황아영',
+    '이정윤',
+    '마이크',
+  ];
+  shuffle(numbers);
+  console.log(numbers);
 
   const renderRow = ({item, index}) => {
     return (
@@ -87,6 +87,7 @@ const App = () => {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'space-evenly',
+            marginBottom: 12,
           }}>
           <TouchableOpacity
             onPress={() => shuffle(numbers)}
@@ -98,7 +99,6 @@ const App = () => {
               height: 50,
               borderRadius: 10,
               backgroundColor: '#27A1FF',
-              marginBottom: 60,
             }}>
             <Text style={{color: '#fff', fontSize: 17, fontWeight: 'bold'}}>
               랜덤 셔플
@@ -115,7 +115,6 @@ const App = () => {
               height: 50,
               borderRadius: 10,
               backgroundColor: '#fff',
-              marginBottom: 60,
               borderWidth: 2,
               borderColor: '#27A1FF',
             }}>
@@ -123,6 +122,38 @@ const App = () => {
               결과 보기
             </Text>
           </TouchableOpacity>
+        </View>
+        <View
+          style={{
+            marginBottom: 40,
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            marginLeft: 16,
+          }}>
+          <Text style={{fontSize: 13, color: '#333333'}}>
+            ※ 분리수거는 자신이 해당하는 요일에 퇴근하기전
+          </Text>
+          <Text style={{fontSize: 13, color: '#333333', marginLeft: 10}}>
+            가득 차 있는 분리수거 통을 비우면 됩니다.
+          </Text>
+          <Text
+            style={{
+              fontSize: 12,
+              color: '#CCCCCC',
+              marginLeft: 10,
+              marginTop: 4,
+            }}>
+            ex)퇴근 전 '플라스틱'통과 '쓰레기'통이 가득 차있으면 두개 다
+            비우시면 됩니다
+          </Text>
+          <Text
+            style={{
+              fontSize: 12,
+              color: '#CCCCCC',
+              marginLeft: 10,
+            }}>
+            ex2)비울 지 말지 애매하면 청소감독에게 문의
+          </Text>
         </View>
 
         <FlatList

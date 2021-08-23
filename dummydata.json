@@ -29,7 +29,7 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
       "name": "",
-      "clean_name": "분리수거(수)"
+      "clean_name": "분리수거(화)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843021-6172421e-9bcb-4035-9499-4534d3384c51.png",
@@ -39,22 +39,32 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
       "name": "",
-      "clean_name": "분리수거(금)"
-    },
-    {
-      "img": "https://user-images.githubusercontent.com/66461799/129844584-09caee24-ce44-46aa-83d6-8e12aa7f2883.png",
-      "name": "",
-      "clean_name": "탕비실 청소"
+      "clean_name": "분리수거(수)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129844579-24de5650-0a7c-41b2-8974-c9e890abdd83.png",
       "name": "",
-      "clean_name": "회의실 청소"
+      "clean_name": "탕비, 회의실 청소"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "name": "",
+      "clean_name": "분리수거(목)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129844581-5eb15601-e59f-406e-842c-f8508e444a14.png",
       "name": "",
       "clean_name": "화분 물 주기"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "name": "",
+      "clean_name": "분리수거(금)"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/130381789-468df00e-35e5-47c1-9d56-d19e641816a5.png",
+      "name": "",
+      "clean_name": "청소감독"
     }
   ]
 }
