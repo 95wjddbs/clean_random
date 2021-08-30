@@ -33,6 +33,8 @@ const App = () => {
     '황아영',
     '이정윤',
     '마이크',
+    '장진수',
+    '조영민',
   ];
   shuffle(numbers);
   console.log(numbers);
@@ -57,7 +59,7 @@ const App = () => {
             marginBottom: 10,
           }}
         />
-        <Text style={{fontSize: 16, fontWeight: 'bold'}}>
+        <Text style={{fontSize: 14, fontWeight: 'bold'}}>
           {item.clean_name + ' :'}
           {status === true ? <Text>{numbers[index]}</Text> : null}
         </Text>
@@ -131,28 +133,16 @@ const App = () => {
             marginLeft: 16,
           }}>
           <Text style={{fontSize: 13, color: '#333333'}}>
-            ※ 분리수거는 자신이 해당하는 요일에 퇴근하기전
+            ※ 간식 채우기는 평소에는 냉장고와 간식을 잘 정돈하는 겁니다.
           </Text>
           <Text style={{fontSize: 13, color: '#333333', marginLeft: 10}}>
-            가득 차 있는 분리수거 통을 비우면 됩니다.
+            그리고 간식이 오는날에 간식들을 전부 채우면 됩니다.
           </Text>
-          <Text
-            style={{
-              fontSize: 12,
-              color: '#CCCCCC',
-              marginLeft: 10,
-              marginTop: 4,
-            }}>
-            ex)퇴근 전 '플라스틱'통과 '쓰레기'통이 가득 차있으면 두개 다
-            비우시면 됩니다
+          <Text style={{fontSize: 13, color: '#333333', marginTop: 6}}>
+            ※ 화장실 휴지는 두루마리와, 손티슈도 채우는 겁니다.
           </Text>
-          <Text
-            style={{
-              fontSize: 12,
-              color: '#CCCCCC',
-              marginLeft: 10,
-            }}>
-            ex2)비울 지 말지 애매하면 청소감독에게 문의
+          <Text style={{fontSize: 13, color: '#333333', marginTop: 6}}>
+            ※ 분리수거는 비우기 애매하면 청소감독에게 물어보세요
           </Text>
         </View>
 

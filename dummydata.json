@@ -17,49 +17,59 @@
   ],
   "type": [
     {
-      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "img": "https://user-images.githubusercontent.com/66461799/131276845-0abad64f-40d9-4740-a3f3-4ae19244f9b7.png",
       "name": "",
-      "clean_name": "분리수거(월)"
+      "clean_name": "플라스틱(월,화,수)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843018-1b1dd195-5891-40c8-ade5-325ece9a4de4.png",
       "name": "",
-      "clean_name": "바닥 쓸기"
+      "clean_name": "바닥 쓸기(수 오전)"
     },
     {
-      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "img": "https://user-images.githubusercontent.com/66461799/131276845-0abad64f-40d9-4740-a3f3-4ae19244f9b7.png",
       "name": "",
-      "clean_name": "분리수거(화)"
+      "clean_name": "플라스틱(목,금)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843021-6172421e-9bcb-4035-9499-4534d3384c51.png",
       "name": "",
-      "clean_name": "바닥 닦기"
+      "clean_name": "바닥 닦기(수 오후)"
     },
     {
-      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "img": "https://user-images.githubusercontent.com/66461799/131276850-911b1988-4bc3-4682-8765-871d4f42a47c.png",
       "name": "",
-      "clean_name": "분리수거(수)"
+      "clean_name": "캔,비닐(매일 확인)"
     },
     {
-      "img": "https://user-images.githubusercontent.com/66461799/129844579-24de5650-0a7c-41b2-8974-c9e890abdd83.png",
+      "img": "https://user-images.githubusercontent.com/66461799/131277281-5d90a8b3-e380-46e8-aa17-61e7b3140063.png",
       "name": "",
-      "clean_name": "탕비, 회의실 청소"
+      "clean_name": "탕비실 얼음 및 청소"
     },
     {
-      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "img": "https://user-images.githubusercontent.com/66461799/131276846-96ad7c1e-d69f-4245-b255-32295acfc0be.png",
       "name": "",
-      "clean_name": "분리수거(목)"
+      "clean_name": "일반,종이(매일 확인)"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/131276847-d8e1bffc-5754-4710-9d6d-1139e615578d.png",
+      "name": "",
+      "clean_name": "전자레인지,회의실(수)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129844581-5eb15601-e59f-406e-842c-f8508e444a14.png",
       "name": "",
-      "clean_name": "화분 물 주기"
+      "clean_name": "화분 물 주기(수)"
     },
     {
-      "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
+      "img": "https://user-images.githubusercontent.com/66461799/131277279-498e3e4d-465a-4c46-b59b-9013927964f4.png",
       "name": "",
-      "clean_name": "분리수거(금)"
+      "clean_name": "간식 채우기,정리"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/131277463-c3f2a769-7af3-446c-aeb0-26fe649ee416.png",
+      "name": "",
+      "clean_name": "화장실 휴지 채우기"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/130381789-468df00e-35e5-47c1-9d56-d19e641816a5.png",
