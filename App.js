@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {
   ScrollView,
-  StyleSheet,
   Text,
   View,
   TouchableOpacity,
@@ -11,10 +10,6 @@ import {
 } from 'react-native';
 
 import data from './dummydata.json';
-
-function happy() {
-  console.log('h');
-}
 
 const App = () => {
   const [status, setStatus] = useState(false);
@@ -35,6 +30,7 @@ const App = () => {
     '마이크',
     '장진수',
     '조영민',
+    '오지연',
   ];
   shuffle(numbers);
   console.log(numbers);
@@ -139,10 +135,10 @@ const App = () => {
             그리고 간식이 오는날에 간식들을 전부 채우면 됩니다.
           </Text>
           <Text style={{fontSize: 13, color: '#333333', marginTop: 6}}>
-            ※ 화장실 휴지는 두루마리와, 손티슈도 채우는 겁니다.
+            ※ 분리수거2는 분리수거 비닐을 정리하고, 새로 채우는 역할입니다.
           </Text>
           <Text style={{fontSize: 13, color: '#333333', marginTop: 6}}>
-            ※ 분리수거는 비우기 애매하면 청소감독에게 물어보세요
+            ※ 분리수거1은 정리된 쓰레기를 1층에 버리시면 됩니다.
           </Text>
         </View>
 
