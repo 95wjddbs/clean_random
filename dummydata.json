@@ -24,7 +24,7 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843018-1b1dd195-5891-40c8-ade5-325ece9a4de4.png",
       "name": "",
-      "clean_name": "바닥 쓸기(수 오전)"
+      "clean_name": "바닥 쓸기(화 오전)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
@@ -34,7 +34,7 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843018-1b1dd195-5891-40c8-ade5-325ece9a4de4.png",
       "name": "",
-      "clean_name": "바닥 쓸기2(수 오전)"
+      "clean_name": "바닥 쓸기2(목 오전)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/134850140-be73d351-e6f5-4f1c-aa43-37a10e457d54.png",
@@ -44,7 +44,7 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843021-6172421e-9bcb-4035-9499-4534d3384c51.png",
       "name": "",
-      "clean_name": "바닥 닦기(수 오후)"
+      "clean_name": "바닥 닦기(화 오후)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
@@ -54,7 +54,7 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843021-6172421e-9bcb-4035-9499-4534d3384c51.png",
       "name": "",
-      "clean_name": "바닥 닦기2(수 오후)"
+      "clean_name": "바닥 닦기2(목 오후)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129843016-becbff45-c601-473d-acfb-2fe13d692b77.png",
@@ -64,12 +64,17 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/131276847-d8e1bffc-5754-4710-9d6d-1139e615578d.png",
       "name": "",
-      "clean_name": "탕비실,회의실(수)"
+      "clean_name": "회의실(매일 확인)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/134850140-be73d351-e6f5-4f1c-aa43-37a10e457d54.png",
       "name": "",
       "clean_name": "분리수거2(금)"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/135979846-6fd8bf18-5fb5-41f0-80c5-a3e46f2bea52.jpg",
+      "name": "",
+      "clean_name": "탕비실(매일 확인)"
     },
     {
       "img": "https://user-images.githubusercontent.com/66461799/129844581-5eb15601-e59f-406e-842c-f8508e444a14.png",
@@ -79,7 +84,12 @@
     {
       "img": "https://user-images.githubusercontent.com/66461799/131277279-498e3e4d-465a-4c46-b59b-9013927964f4.png",
       "name": "",
-      "clean_name": "간식 채우기,정리"
+      "clean_name": "간식 채우기,정리1"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/66461799/131277279-498e3e4d-465a-4c46-b59b-9013927964f4.png",
+      "name": "",
+      "clean_name": "간식 채우기,정리2"
     }
   ]
 }

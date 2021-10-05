@@ -20,7 +20,7 @@ const App = () => {
   const numbers = [
     '김유태',
     '박주안',
-    '이창욱',
+    '박창욱',
     '허지행',
     '심평섭',
     '박진',
@@ -31,6 +31,8 @@ const App = () => {
     '장진수',
     '조영민',
     '오지연',
+    '곽지성',
+    '박준성',
   ];
   shuffle(numbers);
   console.log(numbers);
